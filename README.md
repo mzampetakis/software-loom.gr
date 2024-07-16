@@ -1,14 +1,20 @@
-# Creative Theme for Jekyll
+# Software Loom
 
-A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
+Software Loom hopage deployed at `software-loom.gr`.
 
-Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
-The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
+## Getting started
 
-See it live in action at <https://volny.github.io/creative-theme-jekyll/>
+To run this site locally add a `Gemfile` with content:
+```
+source 'https://rubygems.org'
 
-## To use the Creative Theme template in your project
+gem 'jekyll'
+```
 
-- Start by adding your info in `_config.yml`
-- In `_layouts/front.html` reorder or remove section as you prefer.
+and run:
+```
+bundle install
+bundle exec jekyll serve
+```
 
+Visit `http://127.0.0.1:4000` to check the website.
